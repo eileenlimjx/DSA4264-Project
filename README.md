@@ -14,3 +14,13 @@ This project aims to conduct an analysis of Singapore subreddits from 2020 to 20
 
 4. Insights for Policymakers: Provide actionable insights to support policy recommendations aimed at mitigating toxic content and promoting safer online spaces.
 
+
+### Setup instructions
+
+1. Clone the repository into your local machine
+
+2. Set up and activate virtual environment by running 'python -m venv venv' and 'source venv/bin/activate'
+
+3. Install the required dependencies using 'pip install -r requirements.txt'
+
+

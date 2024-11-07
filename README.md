@@ -6,9 +6,9 @@ This project aims to conduct an analysis of Singapore subreddits from 2020 to 20
 
 ### Objectives
 
-1. Sentiment Analysis: Determine shifts in sentiment across years
+1. Sentiment Analysis: Determine shifts in sentiment across years.
 
-2. Model Deployment: Utilize Hugging Face models for sentiment and toxicity classification, enabling predictions on hatefulness and toxicity within comments.
+2. Model Deployment: Utilize Hugging Face models for hate and toxicity classification.
 
 3. Topic Modeling: Identify and track major themes and topics within discussions, helping to understand what issues are driving online conversations.
 

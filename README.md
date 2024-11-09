@@ -2,17 +2,17 @@
 ## Analysis of Hateful and Toxic Trends in Singapore Reddit
 
 ### Project Overview
-This project aims to conduct an analysis of Singapore subreddits from 2020 to 2023 to assess if discussions are becoming more hateful and toxic over the past years. By leveraging on data scienc techniques, this project seeks to analyze and explain changes in online discourse and provide actionable insights for policy interventions.
+This project aims to conduct an analysis of Singapore subreddits from 2020 to 2023 to assess if discussions are becoming more hateful and toxic over the past years. By leveraging on data science techniques, this project seeks to analyze and explain changes in online discourse and provide actionable insights for policy interventions.
 
 ### Objectives
 
 1. Sentiment Analysis: Determine shifts in sentiment across years.
 
-2. Model Deployment: Utilize Hugging Face models for hate and toxicity classification.
+2. Model Deployment: Utilize Hugging Face models for sentiment analysis, hate and toxicity classification.
 
 3. Topic Modeling: Identify and track major themes and topics within discussions, helping to understand what issues are driving online conversations.
 
-4. Insights for Policymakers: Provide actionable insights to support policy recommendations aimed at mitigating toxic content and promoting safer online spaces.
+4. Insights for Policymakers: Provide actionable insights to support policy recommendations aimed at mitigating hateful and toxic content and promoting safer online spaces.
 
 
 ### Setup instructions

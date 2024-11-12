@@ -183,7 +183,15 @@ Initially, there was consideration on whether there was to be a split by subredd
 **Sentiment Analysis**
 
 After doing sentiment analysis on 20% of the sample data from 2020 to 2023, we realised that the sentiment results reveal a clear trend that negative sentiment has steadily increased each year, rising from 34.50% in 2020 to 42.21% in 2023. Conversely, positive sentiment showed a gradual decline, decreasing from 15.64% in 2020 to 11.10% in 2023. Neutral sentiment remained relatively stable, with a slight downward trend from 49.86% in 2020 to 46.69% in 2023. These results suggest an overall shift toward a more negative tone over the years, with a corresponding decrease in positive sentiment, while neutral sentiment levels maintained a relatively consistent proportion. 
-![alt text](<images/table1.png>)
+| Year/Sentiment| Negative | Neutral | Positive |
+| :--------| :------: | :-----: | :------: |
+| **2020** | 34.5% | 49.9%| 15.6%|
+| **2021** | 38.5% | 47.3% | 14.2% |
+| **2022** | 40.7% | 46.8% | 12.5%|
+| **2023** | 42.2% | 46.7% | 11.1% |
+
+Table: Sentiment Analysis Results (to 3 s.f.)
+
 ![alt text](<images/graph1.png>)
 ![alt text](<images/graph2.png>)
 ![alt text](<images/graph3.png>)
@@ -208,6 +216,7 @@ Interestingly enough, these three redditors have only posted toxic comments on t
 Subreddit analysis:
 
 ![alt text](<images/graph8.png>)
+
 Overall, the subreddit r/Singapore has nearly half the proportion of toxic comments as compared to r/SingaporeHappenings and r/SingaporeRaw. This could be attributed to the fact that r/Singapore has a much larger community and is much more general than the other two subreddits, whereas r/SingaporeRaw specifically provides a space for controversial conversations. The time series plot shows wild fluctuations in toxic comment proportion for r/SingaporeRaw throughout 2020, which could be attributed to the outbreak of COVID. In contrast, toxic comment proportions stayed relatively stable throughout for r/Singapore, further supporting the previous hypothesis. Lastly, while r/SingaporeHappenings was only created in September 2022, it has attracted even more toxic comments relative to r/SingaporeRaw in its first few months, possibly acting as a new breeding ground for toxicity. Since r/SingaporeHappenings is a subreddit that centres around daily life in Singapore, it is likely the place Singapore residents go to voice their complaints. The explosion of toxicity in its first month may be an indicator of the dissatisfaction Singapore residents have towards their quality of life.
 ![alt text](<images/graph9.png>)
 
@@ -233,12 +242,24 @@ Below are the results obtained through analysis by the model:
 There are 3 immediate findings that can be noted from observing the results: the main topics driving toxicity and hate amongst Singaporeans, topics that cause spikes in toxicity and hate and notable topics.
 
 Below are tables that contain the definitions of these terms and findings.
-![alt text](<images/table2.png>)
+
+| Type of finding| Definition | Reasoning | Significance |
+| :--------| :------: | :-----: | :------: |
+| **Main topics driving toxicity and hate** | A topic that ranks in the top 3 in terms of count for at least 3 months of the year | It is a topic that is consistent in being a source of toxicity and hate for the year| A long-term problem and deep seated issue that affects many Singaporeans|
+| **Topics that cause spikes in toxicity and hate** | A topic that takes up at least 25% of the total count of toxic texts in the month| It is a topic that takes up a significant portion of the month’s source of toxicity and hate | Likely a reaction to events that occurred during that month or the month before that - future spikes can be predicted by observing controversial day-to-day affairs |
+| **Notable topics** | Topics that come up very often but do not satisfy the above 2 criterion | These are topics that are constantly sources of toxicity and hatred, but they are not the biggest contributors. | A source of mild irritation in the day-to-day life of Singaporeans|
+
+
 ![alt text](<images/result1.png>)
 ![alt text](<images/result2.png>)
 ![alt text](<images/result3.png>)
 ![alt text](<images/result4.png>)
-![alt text](<images/table3.png>)
+| Main topics driving toxicity and hate| Notable Topics | 
+| :--------:| :------: | 
+| Anti china sentiment | Racism | 
+| Road rage | Political/governance | 
+| Cyberbullying | Chinese privilege | 
+| Employment related | Xenophobia/hate targeted at foreigners |
 
 In summary, the models are able to provide insights into the frustrations and pain points faced by Singaporeans, leading them to post toxic and hate filled content onto Reddit. The results particularly reflect a strong undercurrent of racial tension within Singapore and anti-foreigner sentiment in Singapore. 
 
@@ -277,7 +298,7 @@ The use of NLTK stopwords library and updating stopwords to include commonly use
 Possible improvements to Topic Modelling Analysis:
 
 We did not have the time to explore certain relationships due to the complexity of the model used. The 3-step process of topic modelling takes a long time, so it was impossible to explore every relationship in depth. For example, the exploration of the differences between content in each subreddit. A cursory pass was made through each subreddit in 2020. The results showed that there were only minor differences in the topics in each subreddit generating toxicity and hatred.
-![alt text](<Screenshot 2024-11-12 at 10.11.45 PM.png>)
+![alt text](<images/result5.png>)
 However, the assessment was made on a yearly level, and some of the monthly topics may have been left out, looking from a year’s perspective. If there was more time and with a better GPU, we could have delved deeper into this, dissecting it to a month by month analysis, where a more granular view may lead to more obvious differences between the topics of each subreddit.
 
 Given more time, analysis could also have been done on the relationship between type of incident and the subreddit is most likely to appear on, so that moderation efforts can be more targeted in the future.

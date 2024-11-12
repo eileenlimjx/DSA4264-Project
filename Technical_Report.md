@@ -183,9 +183,9 @@ Initially, there was consideration on whether there was to be a split by subredd
 **Sentiment Analysis**
 
 After doing sentiment analysis on 20% of the sample data from 2020 to 2023, we realised that the sentiment results reveal a clear trend that negative sentiment has steadily increased each year, rising from 34.50% in 2020 to 42.21% in 2023. Conversely, positive sentiment showed a gradual decline, decreasing from 15.64% in 2020 to 11.10% in 2023. Neutral sentiment remained relatively stable, with a slight downward trend from 49.86% in 2020 to 46.69% in 2023. These results suggest an overall shift toward a more negative tone over the years, with a corresponding decrease in positive sentiment, while neutral sentiment levels maintained a relatively consistent proportion. 
-![alt text](<Screenshot 2024-11-12 at 9.51.37 PM.png>)
-![alt text](<Screenshot 2024-11-12 at 9.52.21 PM.png>)
-![alt text](<Screenshot 2024-11-12 at 9.52.31 PM.png>)
+![alt text](images/table1.png>)
+![alt text](<images/graph1.png>)
+![alt text](<images/graph2.png>)
 ![alt text](<Screenshot 2024-11-12 at 9.52.36 PM.png>)
 
 **Hate and Toxicity Analysis**

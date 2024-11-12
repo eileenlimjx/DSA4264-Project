@@ -298,6 +298,7 @@ The use of NLTK stopwords library and updating stopwords to include commonly use
 Possible improvements to Topic Modelling Analysis:
 
 We did not have the time to explore certain relationships due to the complexity of the model used. The 3-step process of topic modelling takes a long time, so it was impossible to explore every relationship in depth. For example, the exploration of the differences between content in each subreddit. A cursory pass was made through each subreddit in 2020. The results showed that there were only minor differences in the topics in each subreddit generating toxicity and hatred.
+
 ![alt text](<images/result5.png>)
 
 However, the assessment was made on a yearly level, and some of the monthly topics may have been left out, looking from a year’s perspective. If there was more time and with a better GPU, we could have delved deeper into this, dissecting it to a month by month analysis, where a more granular view may lead to more obvious differences between the topics of each subreddit.

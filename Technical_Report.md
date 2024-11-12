@@ -183,17 +183,17 @@ Initially, there was consideration on whether there was to be a split by subredd
 **Sentiment Analysis**
 
 After doing sentiment analysis on 20% of the sample data from 2020 to 2023, we realised that the sentiment results reveal a clear trend that negative sentiment has steadily increased each year, rising from 34.50% in 2020 to 42.21% in 2023. Conversely, positive sentiment showed a gradual decline, decreasing from 15.64% in 2020 to 11.10% in 2023. Neutral sentiment remained relatively stable, with a slight downward trend from 49.86% in 2020 to 46.69% in 2023. These results suggest an overall shift toward a more negative tone over the years, with a corresponding decrease in positive sentiment, while neutral sentiment levels maintained a relatively consistent proportion. 
-![alt text](images/table1.png>)
+![alt text](<images/table1.png>)
 ![alt text](<images/graph1.png>)
 ![alt text](<images/graph2.png>)
-![alt text](<Screenshot 2024-11-12 at 9.52.36 PM.png>)
+![alt text](<images/graph3.png>)
 
 **Hate and Toxicity Analysis**
 
 Time series analysis on the combined hate and toxicity datasets also revealed similar results to sentiment analysis, where both toxicity and hate proportions show an increasing trend over the years, with local peaks in October 2021 and August 2022, although it can be noted that the proportion of hate and toxic comments dipped after August 2022.
 
-![alt text](<Screenshot 2024-11-12 at 9.54.06 PM.png>)
-![alt text](<Screenshot 2024-11-12 at 9.54.12 PM.png>)
+![alt text](<images/graph4.png>)
+![alt text](<images/graph5.png>)
 
 Username analysis:
 
@@ -201,15 +201,15 @@ To find out if a subset of users contributed disproportionately to toxic discour
 
 Time series analysis was also done for the top 3 commenters to observe their commenting patterns. The number of toxic comments made for all three users fluctuated significantly from month to month, reaching upwards of 30 to 40 toxic comments a month, or around 1 toxic comment a day. There would be periods of high activity and periods of inactivity, which could hint at certain events that encourage these users to return with toxicity. 
 
-![alt text](<Screenshot 2024-11-12 at 9.54.26 PM.png>)
-![alt text](<Screenshot 2024-11-12 at 9.54.34 PM.png>)
+![alt text](<images/graph6.png>)
+![alt text](<images/graph7.png>)
 Interestingly enough, these three redditors have only posted toxic comments on the r/singapore subreddit.
 
 Subreddit analysis:
 
-![alt text](<Screenshot 2024-11-12 at 9.55.15 PM.png>)
+![alt text](<images/graph8.png>)
 Overall, the subreddit r/Singapore has nearly half the proportion of toxic comments as compared to r/SingaporeHappenings and r/SingaporeRaw. This could be attributed to the fact that r/Singapore has a much larger community and is much more general than the other two subreddits, whereas r/SingaporeRaw specifically provides a space for controversial conversations. The time series plot shows wild fluctuations in toxic comment proportion for r/SingaporeRaw throughout 2020, which could be attributed to the outbreak of COVID. In contrast, toxic comment proportions stayed relatively stable throughout for r/Singapore, further supporting the previous hypothesis. Lastly, while r/SingaporeHappenings was only created in September 2022, it has attracted even more toxic comments relative to r/SingaporeRaw in its first few months, possibly acting as a new breeding ground for toxicity. Since r/SingaporeHappenings is a subreddit that centres around daily life in Singapore, it is likely the place Singapore residents go to voice their complaints. The explosion of toxicity in its first month may be an indicator of the dissatisfaction Singapore residents have towards their quality of life.
-![alt text](<Screenshot 2024-11-12 at 9.58.40 PM.png>)
+![alt text](<images/graph9.png>)
 
 **Topic Modelling**
 
@@ -218,27 +218,27 @@ On completion of topic modelling over the years of 2020 to 2023, several large t
 Below are the results obtained through analysis by the model:
 
 **2020**
-![alt text](<Screenshot 2024-11-12 at 9.59.57 PM.png>)
-![alt text](<Screenshot 2024-11-12 at 10.00.23 PM.png>)
+![alt text](<images/2020_1.png>)
+![alt text](<images/2020_2.png>)
 **2021**
-![alt text](<Screenshot 2024-11-12 at 10.02.36 PM.png>)
-![alt text](<Screenshot 2024-11-12 at 10.02.44 PM.png>)
+![alt text](<images/2021_1.png>)
+![alt text](<images/2021_2.png>)
 **2022**
-![alt text](<Screenshot 2024-11-12 at 10.03.48 PM.png>)
-![alt text](<Screenshot 2024-11-12 at 10.03.57 PM.png>)
+![alt text](<images/2022_1.png>)
+![alt text](<images/2022_1.png>)
 **2023**
-![alt text](<Screenshot 2024-11-12 at 10.04.04 PM.png>)
-![alt text](<Screenshot 2024-11-12 at 10.04.25 PM.png>)
+![alt text](<images/2023_1.png>)
+![alt text](<images/2023_2.png>)
 
 There are 3 immediate findings that can be noted from observing the results: the main topics driving toxicity and hate amongst Singaporeans, topics that cause spikes in toxicity and hate and notable topics.
 
 Below are tables that contain the definitions of these terms and findings.
-![alt text](<Screenshot 2024-11-12 at 10.05.57 PM.png>)
-![alt text](<Screenshot 2024-11-12 at 10.07.13 PM.png>)
-![alt text](<Screenshot 2024-11-12 at 10.08.06 PM.png>)
-![alt text](<Screenshot 2024-11-12 at 10.08.32 PM.png>)
-![alt text](<Screenshot 2024-11-12 at 10.08.50 PM.png>)
-![alt text](<Screenshot 2024-11-12 at 10.10.11 PM.png>)
+![alt text](<images/table2.png>)
+![alt text](<images/result1.png>)
+![alt text](<images/result2.png>)
+![alt text](<images/result3.png>)
+![alt text](<images/result4.png>)
+![alt text](<images/table3.png>)
 
 In summary, the models are able to provide insights into the frustrations and pain points faced by Singaporeans, leading them to post toxic and hate filled content onto Reddit. The results particularly reflect a strong undercurrent of racial tension within Singapore and anti-foreigner sentiment in Singapore. 
 
